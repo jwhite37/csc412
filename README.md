@@ -1,6 +1,8 @@
 # CSC 412 Assignment 03
 Human Computer Interaction - Jeffery White
 
+- The only changes made to the code are in the face_tracker.cc file, which is in this repository.
+
 # Methodology
 
 I used a basic 'delta' calculation to get at detecting the head movements, smile, and surprise. So each time through the main loop we can choose to update 'previous' values and then during the main loop compare these values. Threshold values are set in the globals (which can be tweaked as necessary).
